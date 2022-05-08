@@ -1,0 +1,5 @@
+#error:not(.no-error) {
+	background-color: pink;
+	border: #f99 solid 2px;
+	padding: 5px;
+}
