@@ -1,7 +1,3 @@
-/*
-Used on index.html
-*/
-
 const search = new URLSearchParams(location.search),
 	error_holder = document.querySelector("#error"),
 	errors = {
@@ -18,6 +14,7 @@ const search = new URLSearchParams(location.search),
 			desc: "ScratchDB is down, try again later"
 		}
 	}
+
 function create_error(code) {
 	let error = errors[code],
 		error_html = `<h1>Error ${code}: ${error.name}</h1><p>${error.desc}</p>`;
